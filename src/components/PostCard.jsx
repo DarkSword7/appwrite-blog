@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function PostCard({ $id, title, featuredImage, content }) {
   return (
     <Link to={`/post/${$id}`}>
-      <div className="dark:bg-gray-100 dark:text-gray-900">
+      <div className="dark:bg-gray-100 dark:text-gray-900 border-b-2 border-black">
         <div className="container grid grid-cols-12 mx-auto dark:bg-gray-50">
           <div
             className="bg-no-repeat bg-cover dark:bg-gray-300 col-span-full lg:col-span-4 "
